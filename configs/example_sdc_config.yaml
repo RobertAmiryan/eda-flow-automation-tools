@@ -1,0 +1,17 @@
+clocks:
+  - name: clk_core
+    period_ns: 1.0
+    ports: ["clk_core"]
+  - name: clk_axi
+    period_ns: 2.5
+    ports: ["clk_axi"]
+
+input_delays:
+  - port: rx_data
+    delay_ns: 0.8
+
+output_delays:
+  - port: tx_data
+    delay_ns: 0.6
+
+io_ports: ["rx_data", "tx_data", "clk_core", "clk_axi"]

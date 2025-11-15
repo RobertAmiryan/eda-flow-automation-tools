@@ -1,0 +1,9 @@
+[INFO] Starting step synthesis
+[WARNING] Sample warning 1 in synthesis
+[WARNING] Sample warning 2 in synthesis
+[WARNING] Sample warning 3 in synthesis
+[WARNING] Sample warning 4 in synthesis
+[WARNING] Sample warning 5 in synthesis
+[ERROR] Sample error 1 in synthesis
+[ERROR] Sample error 2 in synthesis
+[INFO] Finished step synthesis

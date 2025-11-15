@@ -1,0 +1,18 @@
+flow_name: example_simple_flow
+steps:
+  - name: prep
+    script: scripts/run_step_dummy.py
+    args: ["--name", "prep", "--duration", "0.3"]
+  - name: synthesis
+    script: scripts/run_step_dummy.py
+    args: ["--name", "synthesis", "--duration", "0.6", "--errors", "2", "--warnings", "5"]
+  - name: place
+    script: scripts/run_step_dummy.py
+    args: ["--name", "place", "--duration", "0.4", "--warnings", "3"]
+  - name: route
+    script: scripts/run_step_dummy.py
+    args: ["--name", "route", "--duration", "0.5", "--warnings", "1"]
+  - name: sta
+    script: scripts/run_step_dummy.py
+    args: ["--name", "sta", "--duration", "0.2", "--warnings", "0"]
+log_dir: logs
