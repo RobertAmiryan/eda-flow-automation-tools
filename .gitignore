@@ -1,1 +1,33 @@
+# Virtual environments
 .venv/
+.venv-*
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Tests and pytest cache
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore test virtualenvs
+.venv-test/
+
