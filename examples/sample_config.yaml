@@ -1,0 +1,13 @@
+# Sample configuration for EDA flow automation
+
+flow:
+  name: example_power_analysis
+  input_file: examples/sample_input.log
+  output_dir: output/
+
+processing:
+  enable_power_analysis: true
+  enable_logging: true
+
+logging:
+  level: INFO
